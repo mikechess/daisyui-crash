@@ -2,9 +2,11 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <>
-        <h1>Footer</h1>
-    </>
+    <footer className="bg-purple-600 text-white py-4 mt-4">
+      <div className="container mx-auto">
+        <p>&copy; {new Date().getFullYear()} DaisyUI Example</p>
+      </div>
+    </footer>
   )
 }
 
